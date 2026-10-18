@@ -13,6 +13,10 @@ const LOCALE = { cs: "cs-CZ", en: "en-GB" };
 const DICT = {
   cs: {
     chatTitle: "Wiggy · virtuální stylista",
+    signup: "Registrace",
+    browseOnly: "Pokračovat bez přihlášení",
+    authNeeded:
+      "Pro dokončení objednávky se přihlaste nebo vytvořte účet. Košík zůstane uložený.",
     chatNote: "Automatický asistent, ne člověk ani lékař",
     chatPh: "Napište zprávu…",
     chatSend: "Odeslat",
@@ -199,6 +203,10 @@ const DICT = {
   },
   en: {
     chatTitle: "Wiggy · virtual stylist",
+    signup: "Sign up",
+    browseOnly: "Continue browsing",
+    authNeeded:
+      "Please log in or create an account to complete your order. Your cart will be kept.",
     chatNote: "An automated assistant, not a person or a doctor",
     chatPh: "Type a message…",
     chatSend: "Send",
