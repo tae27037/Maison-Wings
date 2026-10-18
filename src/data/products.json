@@ -7,7 +7,7 @@
     "hex": "#b5532e",
     "dark": "#7e3416",
     "price": 2990,
-    "image": "/public/images/wigs/long-red-front.jpg",
+    "image": "/images/wigs/long-red-front.jpg",
     "color": {
       "cs": "Měděná zrzavá",
       "en": "Copper red"
@@ -21,10 +21,7 @@
       "en": "A vivid copper shade in a layered, shoulder-length cut. The lightweight heat-friendly fibre holds its shape after washing and is ready to wear."
     },
     "category": "women",
-    "images": [
-      "/public/images/wigs/long-red-front.jpg",
-      "/public/images/wigs/long-red.jpg"
-    ]
+    "images": ["/images/wigs/long-red-front.jpg", "/images/wigs/long-red.jpg"]
   },
 
   {
