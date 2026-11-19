@@ -55,7 +55,7 @@ The project is built with modern front-end technologies without unnecessary bloa
 
 To run this project locally on your machine for development or testing:
 
-1. **Clone the repository:**
+1.
    ```bash
    git clone <your-repository-url>
    cd maison-wigs
