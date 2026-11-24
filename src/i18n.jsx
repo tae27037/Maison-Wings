@@ -12,6 +12,23 @@ const LOCALE = { cs: "cs-CZ", en: "en-GB" };
 
 const DICT = {
   cs: {
+    aboutNav: "Blog a o nás",
+    aboutTitle: "Blog a o nás",
+    aboutLead:
+      "Tipy na výběr a péči o paruky, seznámení s naším týmem a pozvánka do naší kanceláře v Brně.",
+    tab_blog: "Blog",
+    tab_team: "Tým",
+    tab_office: "Kancelář",
+    readMore: "Číst dál",
+    backToBlog: "Zpět na blog",
+    minRead: "{x} min čtení",
+    teamLead: "Jsme malý tým, který paruky vybírá, testuje a posílá s péčí.",
+    officeNote:
+      "V naší kanceláři si můžete paruky vyzkoušet, nechat si zdarma poradit a vyzvednout objednávku osobně.",
+    address: "Adresa",
+    openHours: "Otevírací doba",
+    openMap: "Otevřít v mapě",
+    mapTitle: "Mapa kanceláře",
     chatTitle: "Wiggy · virtuální stylista",
     signup: "Registrace",
     browseOnly: "Pokračovat bez přihlášení",
@@ -202,6 +219,23 @@ const DICT = {
     continue: "Pokračovat v nákupu",
   },
   en: {
+    aboutNav: "Blog & about us",
+    aboutTitle: "Blog & about us",
+    aboutLead:
+      "Tips on choosing and caring for wigs, meet our team and visit our office in Brno.",
+    tab_blog: "Blog",
+    tab_team: "Team",
+    tab_office: "Office",
+    readMore: "Read more",
+    backToBlog: "Back to the blog",
+    minRead: "{x} min read",
+    teamLead: "We are a small team that picks, tests and ships wigs with care.",
+    officeNote:
+      "In our office you can try wigs on, get free advice and pick up your order in person.",
+    address: "Address",
+    openHours: "Opening hours",
+    openMap: "Open in map",
+    mapTitle: "Office map",
     chatTitle: "Wiggy · virtual stylist",
     signup: "Sign up",
     browseOnly: "Continue browsing",

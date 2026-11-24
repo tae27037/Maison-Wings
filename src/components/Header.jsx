@@ -116,6 +116,12 @@ export default function Header({
             {t("cat_" + c)}
           </button>
         ))}
+        <button
+          className={view === "about" ? s.on : ""}
+          onClick={() => onNav("about")}
+        >
+          {t("aboutNav")}
+        </button>
       </nav>
     </header>
   );

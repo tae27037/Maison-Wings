@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 import Chat from "./components/Chat";
 import QuickView from "./components/QuickView";
 import ProductCard from "./components/ProductCard";
+import About from "./components/About";
 
 // состояние, которое переживает перезагрузку страницы
 function usePersist(key, init) {
@@ -194,9 +195,11 @@ export default function App() {
             onShop={() => nav("shop")}
           />
         )}
+        {view === "about" && <About onShop={() => nav("shop")} />}{" "}
+        {/* ← новая страница */}
         {view === "shop" && <Usp />}
       </div>
-      <Footer onCat={goCat} />
+      <Footer onCat={goCat} onNav={nav} /> {/* ← onNav для ссылки на блог */}
       <Chat onOpen={setOpen} onAdd={add} />
       {open && <QuickView p={open} onClose={() => setOpen(null)} onAdd={add} />}
     </>
